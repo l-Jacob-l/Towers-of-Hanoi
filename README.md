@@ -4,6 +4,6 @@ Towers of Hanoi is a mathematical puzzle where you move a set of disks between t
 
 The fewest possible moves for the puzzle can be found through the equation: 2^n - 1 (In which "n' is the disk count)
 
-My code demonstrates the most optimal way to solve the puzzle through the use of reccursion
+My code demonstrates the most optimal way to solve the puzzle through the use of recursion
 
 Check out the simulated puzzle at: https://www.mathsisfun.com/games/towerofhanoi.html
