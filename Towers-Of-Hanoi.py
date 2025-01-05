@@ -1,14 +1,21 @@
 
 
+# og = origion of the disk/ tower the disk moves from
+# hlp = helper tower/ tower the disk temporarily uses to hold disks
+# dest = final destination of the disks
+
+# Recursive Function
 def TowersOfHanoi(num, og, hlp, dest):
     count = 2**num - 1
     if num == 1:
         print('Disk moved from tower ' + og + ' to tower ' + dest)
         return count
     else:
+        # Recursive Function call -swaps destination and helper
         TowersOfHanoi(num - 1, og, dest, hlp)
         print('Disk moved from tower ' + og + ' to tower ' + dest)
 
+        # 2nd Recursive Function call -swaps origion and helper
         TowersOfHanoi(num - 1, hlp, og, dest )
         return count
 
