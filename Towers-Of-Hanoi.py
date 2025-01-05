@@ -16,7 +16,7 @@ def TowersOfHanoi(num, og, hlp, dest):
 
 print('It only takes ' + str(TowersOfHanoi(3, 'A', 'B', 'C')) + ' moves!')
 
-# Steps when num(number of disks) = 3
+# Steps to solve the puzzle when number of disks = 3
 # 1. TowersOfHanoi(3, 'A', 'B', 'C') 
 # 2. TowersOfHanoi(2, 'A', 'C', 'B') 
 # 3. TowersOfHanoi(1, 'A', 'B', 'C') 
